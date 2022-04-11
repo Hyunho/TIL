@@ -1,0 +1,8 @@
+- macro rules!
+	- > Rust provides a powerful macro system that allows metaprogramming.
+	- > macros are expanded into source code that gets compiled with the rest of the program.
+	- > Rust macros are expanded into abstract syntax trees, rather than string preprocessing, so you don't get unexpected precedence bugs.
+	- Designators
+		- > The arguments of a macro are prefixed by a dollar sign $ and type annotated with a designator:
+		- block
+		- expr
